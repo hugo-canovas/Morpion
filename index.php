@@ -11,7 +11,7 @@
 </head>
 <body class="flex flex-col justify-evenly bg-slate-900 min-h-screen">
 <div class="min-h-full px-6 pb-8">
-    <h1 class="text-red-600 text-4xl text-center pt-12 sm:text-5xl">Morpion</h1>
+    <h1 class="text-red-600 text-4xl text-center pt-8 sm:text-5xl">Morpion</h1>
 
 <?php
     include 'connexion.php';
