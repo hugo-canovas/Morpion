@@ -122,11 +122,11 @@ function winner(){
 // Attribution de victoire/égalité    
 function endGame(){
     if(winner()== 1){
-        echo '<div class="absolute top-1/2 left-[30%] backdrop-opacity-10 bg-white/30 text-3xl px-4 py-8"><span class="text-sky-600">'.$_SESSION['joueur_1'].'</span> est le gagnant</div>';
+        echo '<div class="absolute top-1/2 left-[4%] backdrop-opacity-10 bg-white/70 text-sm py-6 px-2 sm:left-[20%] sm:px-4 sm:text-lg md:left-[23%] md:text-xl lg:left-[30%] xl:left-[35%]"><span class="text-sky-600">'.$_SESSION['joueur_1'].'</span> est le gagnant</div>';
     }else if(winner()== 2){
-        echo '<div class="absolute top-1/2 left-[30%] backdrop-opacity-10 bg-white/30 text-3xl px-4 py-8"><span class="text-red-600">'.$_SESSION['joueur_2'].'</span> est le gagnant</div>';
+        echo '<div class="absolute top-1/2 left-[4%] backdrop-opacity-10 bg-white/70 text-sm py-6 px-2 sm:left-[20%] sm:px-4 sm:text-lg md:left-[23%] md:text-xl lg:left-[30%] xl:left-[35%]"><span class="text-red-600">'.$_SESSION['joueur_2'].'</span> est le gagnant</div>';
     }else if(isset($_COOKIE['round']) && $_COOKIE['round'] == 9){
-        echo '<div class="absolute top-1/2 left-[40%] backdrop-opacity-10 bg-white/40 text-3xl px-4 py-8">Egalité !</div>';
+        echo '<div class="absolute top-1/2 left-[25%] backdrop-opacity-10 bg-white/70 text-sm py-6 px-2 sm:left-[33%] sm:px-4 sm:text-lg md:left-[35%] md:text-xl lg:left-[40%] xl:left-[42%]">Egalité !</div>';
     }
 }
 
